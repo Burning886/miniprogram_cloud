@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/image/image",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundColor": "#F5F5F5",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "小汪段子",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "段子",
+      "iconPath": "images/gx.png",
+      "selectedIconPath": "images/s_gx.png"
+    },{
+      "pagePath": "pages/image/image",
+      "text": "图片",
+      "iconPath": "images/img.png",
+      "selectedIconPath": "images/s_img.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath": "images/video.png",
+      "selectedIconPath": "images/s_video.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
